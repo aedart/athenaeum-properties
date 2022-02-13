@@ -1,0 +1,34 @@
+{
+    "name": "aedart/athenaeum-properties",
+    "description": "Provides means to dynamically deal with inaccessible properties, by implementing some of PHP's magic methods",
+    "keywords": ["Athenaeum", "Properties", "Overloading", "Magic Methods"],
+    "homepage": "https://aedart.github.io/athenaeum/",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alin Eugen Deac",
+            "email": "aedart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "aedart/athenaeum-contracts": "6.x-dev",
+        "aedart/athenaeum-utils": "6.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aedart\\Properties\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
